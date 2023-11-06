@@ -1,0 +1,136 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+  
+}
+
+/* CABEÇALHO */
+header{
+   background-color: #f5f2f2;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 8px 24px;
+}
+
+header .logo-menu, header .search{
+   display: flex;
+   justify-content: center;
+}
+
+header .notification{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 20px;
+}
+
+header .logo-menu img{
+   margin-left: 32px;
+}
+
+header .search input{
+   width: 300px;
+   height: 40px;
+   border: 1px solid #CCC;
+   border-color: rgb(204, 204, 204);
+   border-image: initial;
+}
+
+header .search button{
+   width: 50px;
+   height: 40px;
+}
+
+header .notification{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 24px;
+}
+
+header .notification img{
+   width: 30px;
+   height: 30px;
+   border-radius: 10%;
+}
+/* PAGINA PRINCIPAL */
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:  flex-start;
+  margin: 20px;
+}
+
+main .video .video-player-title h1{
+   color: #000;
+   font-family: Roboto;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   padding-bottom: 15px;
+   max-width: 700px;
+}
+
+
+main .video .channel-infos{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 42px;
+}
+
+main .video .channel{
+   display: flex;
+   flex-direction: row;
+}
+
+main .video .views{
+   width: 900px;
+   height: 16px;
+   padding: 16px 0px;
+}
+
+main .video .channel-avatar img{
+   display: flex;
+   align-items: center;
+   padding-right: 10px;
+}
+
+main .video .details{
+   padding-top: 20px;
+   width: 510px;
+   min-width: 800px;
+}
+
+main .video .channel-infos .subscribe-channel button{
+   width: 160px;
+   height: 40px;
+   font-size: 14px;
+   text-transform: uppercase;
+   border:  1px none #CCC;
+   background: #ff0000;
+   color: #FFF;
+}
+
+/* PAGINA LATERAL */
+
+main .playlist-video .thumbnail{
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+main .playlist-video .thumbnail-video{
+   margin-right: 10px;
+}
+
+main .playlist-video .thumbnail-info h2{
+   font-size: 1em;
+}
